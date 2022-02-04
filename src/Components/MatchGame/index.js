@@ -38,9 +38,7 @@ class MatchGame extends Component {
 
   getMatchImageObject = () => {
     const {imagesList} = this.props
-    console.log(imagesList)
     const index = Math.floor(Math.random() * imagesList.length)
-    console.log(index)
     return imagesList[index]
   }
 
@@ -60,6 +58,7 @@ class MatchGame extends Component {
         matchImageObject: this.getMatchImageObject(),
       }))
     } else {
+      clearInterval(this.intervalId)
       this.setState({isPlaying: false})
     }
   }
