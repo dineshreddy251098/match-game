@@ -1,0 +1,21 @@
+.thumbnail-container {
+  margin: 12px;
+  list-style-type: none;
+  padding: 0px;
+}
+.thumbnail-btn {
+  outline: none;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+.image {
+  width: 70px;
+  height: 70px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+}

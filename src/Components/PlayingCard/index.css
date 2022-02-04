@@ -1,0 +1,24 @@
+.playing-card-container {
+  width: 100vh;
+  height: 87vh;
+}
+.tabs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thumbnails-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 30px 10px 30px;
+  flex-wrap: wrap;
+}
+.match-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.match-image {
+  width: 80%;
+}
